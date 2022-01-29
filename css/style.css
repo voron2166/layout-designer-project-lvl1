@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+.white {
+    color: #fff;
+}
+
+.t_white {
+    color: #d7ccc0;
+}
+
+.light {
+    color: #f5f4f0;
+}
+
+.primary {
+    color: #fe8a02;
+}
+
+.primary_dark {
+    color: #42413c;
+}
+
+.dark {
+    color: #2a2626;
+}
+
+.t_dark {
+    color: #908d8b;
+}
+
+.brown {
+    color: #b09a81;
+}
+
+.blue {
+    color: #1085c5;
+}
+.open_sans {
+    font-family: 'Open Sans' sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2A2626;
+}
+.neucha {
+    font-family: 'Neucha' italic;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2A2626;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2em;
+}
+h1{
+    font-size: 72px;
+}
+h2 {
+    font-size: 60px;
+}
+h3 {
+    font-size: 34px;
+}
+
+section {
+    max-width: 1110px;
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+    margin: 1000px 0px 100px 0px;
+}
+
+
+
+body {
+    background-image: url("/img/1.png");
+
+}
+
+
+
+/*---HEADER---*/
+
+header{
+
+}
+
+/*---HEADER---*/
+
+
+
+/*---FOOTER---*/
+footer {
+
+}
+/*-/--FOOTER---*/
