@@ -1,15 +1,4 @@
-@font-face {
-    font-family: "Open Sans", italic;
-    src: url(/fonts/OpenSans-400.ttf);
-}
-@font-face {
-    font-family: "Open Sans", italic;
-    src: url(/fonts/OpenSans-700.ttf);
-}
-@font-face {
-    font-family: "Neucha", italic;
-    src: url(/fonts/Neucha.ttf);
-}
+
 .white {
     color: #fff;
 }
@@ -46,7 +35,7 @@
     color: #1085c5;
 }
 .open_sans {
-    font-family: 'Open Sans' sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.6em;
     color: #2A2626;
@@ -57,7 +46,23 @@
     line-height: 1.6em;
     color: #2A2626;
 }
+.block {
+    text-align: start;
+    margin-right: 30px;
+    width: 540px;
 
+}
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 24px;
+    padding: 12px 24px;
+    background-color: #FE8A02;
+    color: #ffffff;
+}
 h1,
 h2,
 h3 {
@@ -75,20 +80,18 @@ h3 {
 }
 
 section {
-    max-width: 1110px;
+    width: 1110px;
     text-align: center;
-    padding: 100px 0px 100px 0px;
-    margin: 100px 0px 100px 0px;
+    padding: 100px 0;
 }
-
-div {
-}
-
 
 
 body {
-    max-width: 1110px;
-    margin: 0 auto;
+    margin: 0;
+    width: 1440px;
+    line-height: 1.6em;
+    font-family: 'Open-Sans' sans-serif;
+    font-size: 16px;
 }
 
 
@@ -96,6 +99,7 @@ body {
 
 header {
     position: relative;
+    height: 914px;
     
 }
 
@@ -104,44 +108,59 @@ header::before {
     content: url('../img/background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.09;
+    opacity: 0.05;
 }
 
 .section-header {
-
+    margin: 0 auto;
+    padding: 100px 0;
+  
 }
 
 
 .section-inner {
     display: flex;
+    margin: 0;
+    padding: 0;
 }
+
 .section_header-title {
-    m-width: 100%;
-    flex-direction: column;
+    justify-content: flex-start;
     text-align: left;
+    z-index: 5;
 }
-                   
+
 .section_header-img {
     position: absolute;
-    top: 55px;
     right: -270px;
-
+    top: 55px;
+    z-index: 1;
 }
 .section_header-imgsize {
-    max-width: 1025px;
+    margin: 0;
+    width: 1080px;
 }
+
+.section_header-subtitle {
+    position: absolute;
+    display: flex;
+    margin-top: 185px;
+}
+
 /*---HEADER---*/
 
+.section-Video {
+}
 /*---MAIN---*/
 main {
-
+    
 }
 
 /*-/--MAIN---*/
 
 /*---FOOTER---*/
 footer {
-
+    
 }
 
 
