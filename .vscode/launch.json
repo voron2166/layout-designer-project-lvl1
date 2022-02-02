@@ -6,10 +6,10 @@
     "configurations": [
 
         {
-            "type": "pwa-chrome",
+            "type": "Coogle chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "/home/voron/project.lv1/layout-designer-project-lvl1/index.html/",
+            "url": "/home/voron/project.lv1/layout-designer-project-lvl1/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]

@@ -1,3 +1,24 @@
+h1,
+h2,
+h3 {
+    line-height: 1.2em;
+}
+h1{
+    font-weight: 400;
+    font-size: 72px;
+}
+h2 {
+    font-size: 60px;
+}
+h3 {
+    font-size: 34px;
+}
+
+body {
+    font-family: 'Open-Sans' sans-serif;
+    line-height: 1.6em;
+    font-size: 16px;
+}
 
 .white {
     color: #fff;
@@ -63,37 +84,20 @@
     background-color: #FE8A02;
     color: #ffffff;
 }
-h1,
-h2,
-h3 {
-    line-height: 1.2em;
-}
-h1{
-    font-weight: 400;
-    font-size: 72px;
-}
-h2 {
-    font-size: 60px;
-}
-h3 {
-    font-size: 34px;
-}
-
-body {
-    font-family: 'Open-Sans' sans-serif;
-    line-height: 1.6em;
-    font-size: 16px;
+[class*="__container"] {
+    margin: 0 auto;
+    max-width: 1110px;
+    
 }
 
 /*---HEADER---*/
 
-.wrapper {
-    position: relative;
+.header {
     height: 914px;
     
 }
 
-.wrapper::before {
+.header::before {
     position: absolute;
     top: 0;
     right: 0;
@@ -106,23 +110,17 @@ body {
     opacity: 0.1;
     content: "";
 }
-.section-header {
+.section-header__container {
     position: relative;
-    margin: 0 auto;
     padding: 100px 0;
-    max-width: 1110px;
-  
-}
 
-
-.section-inner {
-    display: flex;
-    justify-content: flex-start;
 }
 
 .section_header-title {
+    display: flex;
+    flex-direction: column;
     text-align: left;
-    z-index: 5;
+    z-index: 500;
 }
 
 .section_header-img {
@@ -130,7 +128,7 @@ body {
     width: 1080px;
     right: -270px;
     top: 55px;
-    z-index: 1;
+    z-index: 20;
 }
 
 .section_header-subtitle {
@@ -141,19 +139,61 @@ body {
 
 /*---HEADER---*/
 
-.section-Video {
-}
 /*---MAIN---*/
-main {
-    
-}
+.main {
+    background-color: #ffffff;
 
+}
+.section-video {
+ 
+}
+.section-video__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 914px;
+
+}
+.section-video__content {
+}
+.block-text {
+    max-width: 1110px;
+}
+.block-text__title {
+    margin: 27px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 72px;
+
+}
+.block-text__text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-video__video {
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
 /*-/--MAIN---*/
+.section-navigation {
+    margin: 0;
+    padding: 0;
+}
+.section-navigation::before {
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 990px;
+    width: 1440px;
+    background-color: #42413C;
+    content: "";
+}
 
 /*---FOOTER---*/
 footer {
     
 }
-
 
 /*-/--FOOTER---*/
