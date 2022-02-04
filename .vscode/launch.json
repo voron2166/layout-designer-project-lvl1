@@ -6,11 +6,16 @@
     "configurations": [
 
         {
-            "type": "Coogle chrome",
+            "type": "pwa-chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "/home/voron/project.lv1/layout-designer-project-lvl1/index.html",
-            "webRoot": "${workspaceFolder}"
+            "name": "Launch hello.html",
+            "file": "$../home/voron/project.lv1/layout-designer-project-lvl1/index.html"
+        },
+        {
+            "type": "pwa-chrome",
+            "name": "file:///home/voron/project.lv1/layout-designer-project-lvl1/index.html",
+            "request": "launch",
+            "url":  "file:///home/voron/project.lv1/layout-designer-project-lvl1/index.html"
         }
     ]
 }
