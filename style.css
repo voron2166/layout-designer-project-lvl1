@@ -16,6 +16,7 @@ h3 {
 }
 
 body {
+    user-select: none;
     padding: 0;
     margin: 0;
     font-family: 'Open-Sans' sans-serif;
@@ -529,11 +530,13 @@ input::placeholder {
     padding: 0;
     height: 50px;
     width: 70px;
+    cursor: pointer;
 }
 
 .footer_agreements {
     font-size: 12px;
     line-height: 19px;
+    margin-top: 10px;
 }
 
 .footer_a {
